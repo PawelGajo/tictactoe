@@ -1,0 +1,54 @@
+body {
+    font-family: "Arial", sans-serif;
+    background: rgb(34,162,195);
+    background: -moz-linear-gradient(0deg, rgba(34,162,195,0.8491771708683473) 0%, rgba(49,189,203,0.9556197478991597) 0%, rgba(137,121,255,0.8099614845938375) 49%) fixed;
+    background: -webkit-linear-gradient(0deg, rgba(34,162,195,0.8491771708683473) 0%, rgba(49,189,203,0.9556197478991597) 0%, rgba(137,121,255,0.8099614845938375) 49%) fixed;
+    background: linear-gradient(0deg, rgba(34,162,195,0.8491771708683473) 0%, rgba(49,189,203,0.9556197478991597) 0%, rgba(137,121,255,0.8099614845938375) 49%) fixed;
+}
+
+section {
+    text-align: center;
+}
+
+.game {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 50px auto;
+}
+
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px #333333;
+    border: 2px solid #333333;
+    cursor: pointer;
+
+    line-height: 100px;
+    font-size: 60px;
+}
+
+.newGame {
+	box-shadow: 1px 1px 8px 1px #8a2a21;
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	background-color:#c62d1f;
+	border-radius:21px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #810e05;
+}
+.newGame:hover {
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	background-color:#f24437;
+}
+.newGame:active {
+	position:relative;
+	top:1px;
+}
